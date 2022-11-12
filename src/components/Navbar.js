@@ -4,14 +4,15 @@ function Navbar() {
     <div className="main-nav">
       <ul>
         <li>
-        <Link to="/">Home</Link>
-          
+          <Link to="/">Home</Link>
         </li>
         <li>
-        <Link to="/About">About</Link>
-         
+          <Link to="/About">About</Link>
         </li>
-         </ul>
+        
+        <li><Link to="/contact">Contact</Link></li>
+        {/* <li><Link to="/*">Error</Link></li> */}
+      </ul>
     </div>
   );
 }
